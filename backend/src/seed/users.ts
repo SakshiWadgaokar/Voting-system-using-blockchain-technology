@@ -36,7 +36,7 @@ const users: UserType[] = [
     name: "pranav",
     citizenshipNumber: "86759",
     email: "pranav@gmail.com",
-    password: "pranav12345",
+    password: "pranav@gmail.com",
     admin: true,
     verified: true,
   }
