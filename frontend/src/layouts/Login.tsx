@@ -16,8 +16,8 @@ const Login = (props: LayoutProps) => {
       <div className="left">
         <BackButton call={() => navigate("/")} />
 
-        <div className="title-large title-green">Blockchain Based</div>
-        <div className="title-large title-green">Voting System</div>
+        <div className="title-large title-blue">Blockchain Based</div>
+        <div className="title-large title-blue">Voting System</div>
         <div className="title-small">the future of voting</div>
       </div>
 

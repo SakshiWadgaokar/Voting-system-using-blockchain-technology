@@ -20,7 +20,7 @@ html {
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $theme-black;
+  color: black;
 }
 
 code {
@@ -39,16 +39,16 @@ button {
 }
 
 .button-black {
-  background-color: $theme-black;
+  background-color: black;
   color: white;
 }
 .button-primary {
-  background-color: $theme-primary;
+  background-color: #BD83B8;
   color: white;
 }
 
 .button-secondary {
-  background-color: $theme-secondary;
+  background-color: black;
   color: white;
 }
 
@@ -59,17 +59,21 @@ button,
 }
 
 .title-large {
-  font-size: 2.8rem;
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-left: 20px;
 }
 
 .title-small {
-  font-size: 1.6rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 350;
+  text-transform:unset;
 }
 
 .text-normal {
-  font-weight: 300;
+  font-weight: 250;
+  font-size: 20px;
 }
 
 .success-message,
@@ -93,7 +97,6 @@ button,
 .error-message {
   background-color: red;
 }
-
 @import "./layouts/Boxes.scss";
 
 @import "./form.scss";
@@ -113,3 +116,4 @@ button,
 @import "./components/Features/Feature.scss";
 @import "./components/Polls/Chart.scss";
 @import "./components/Polls/Panel.scss";
+

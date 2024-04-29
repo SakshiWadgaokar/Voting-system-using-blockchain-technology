@@ -8,7 +8,7 @@ type FeatureProps = {
 };
 
 const Feature = (props: FeatureProps) => {
-  const iconContainer = <div className="icon-container">{props.icon}</div>;
+  // const iconContainer = <div className="icon-container">{props.icon}</div>;
 
   const featureInfo = (
     <div className="feature-info">
@@ -20,13 +20,13 @@ const Feature = (props: FeatureProps) => {
     <div className="feature-container">
       {props.align === "right" ? (
         <>
-          {iconContainer}
+          
           <div className="align-left">{featureInfo}</div>
         </>
       ) : (
         <>
           <div className="align-right">{featureInfo}</div>
-          {iconContainer}
+          
         </>
       )}
     </div>

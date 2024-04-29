@@ -1,7 +1,9 @@
 .feature-container {
-  display: flex;
-  align-items: center;
-
+  font-size: 2rem;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
   .align-left {
     text-align: left;
   }
@@ -9,8 +11,7 @@
     text-align: right;
   }
 
-  .icon-container {
-    font-size: 4rem;
-    padding: 20px;
-  }
+.icon-container {
+  font-size: 2rem;
 }
+

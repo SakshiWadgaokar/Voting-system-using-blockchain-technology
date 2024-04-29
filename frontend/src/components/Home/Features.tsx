@@ -7,7 +7,7 @@ const Features = () => {
     <div className="features-wrapper">
       <div className="title-large">Amazing Features</div>
       <div className="title-small">
-        lorem ipsum dosa is posa and gosa is the best thing i can come up with
+      Blockchain-based voting offers enhanced security, transparency, reduced costs, increased voter turnout, accessibility, and future-proofing for democratic processes.
       </div>
 
       <div className="mobile-wrapper">
@@ -23,7 +23,7 @@ const Features = () => {
         </div>
 
         <div className="mobile-container">
-          <img src="/mobile.png" />
+          <img src="hand.jpeg" />
         </div>
 
         <div>

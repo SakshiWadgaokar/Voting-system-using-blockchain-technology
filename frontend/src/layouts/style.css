@@ -1,0 +1,14 @@
+landing .right {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 50vh;
+    background-color: #6f2d2d;
+    border: 1px solid blue;
+}
+.feature-container .icon-container {
+    font-size: 2rem;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
